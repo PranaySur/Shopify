@@ -1,0 +1,27 @@
+.table tr td img {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+
+td i {
+    cursor: pointer;
+}
+
+td,
+.th {
+    color: var(--primary-color);
+}
+
+.cart_actions {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.cart_actions:hover {
+    background-color: #13335f;
+}

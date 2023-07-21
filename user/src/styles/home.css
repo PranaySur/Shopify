@@ -1,0 +1,157 @@
+.hero__section {
+    background: rgb(51, 0, 102);
+    background: linear-gradient(to bottom, #0a1d37, #031019);
+    height: calc(100vh - 70px);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    color: #fff;
+    font-weight: 500;
+}
+
+.hero__section h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.hero__section p {
+    color: var(--primary-color);
+    line-height: 30px;
+    font-size: 1rem;
+}
+
+
+.buy__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.buy__btn:hover {
+    background-color: #13335f;
+}
+
+.hero__section {
+    padding-top: 45px;
+}
+
+.timer__count {
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.counter__img {
+    height: 100px;
+}
+
+.timer__count img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.service__item {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.service__item span i {
+    font-size: 2.2rem;
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400 !important;
+}
+
+.service__item h3 {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.service__item p {
+    font-weight: 0.9rem;
+}
+
+@media screen and (max-width: 992px) {
+
+    .service__item span i {
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+
+    .service__item h3 {
+        font-size: 1rem;
+    }
+
+    .service__item {
+        padding: 10px;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+
+    .section__title {
+        font-size: 1.7rem;
+    }
+
+    .timer__count {
+        background: var(--primary-color);
+        height: 400px;
+    }
+
+    .clock__top-content {
+        text-align: center;
+    }
+
+    .clock__top-content h4,
+    h3 {
+        font-size: 1rem !important;
+    }
+
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__content h2 {
+        font-size: 1.6rem;
+    }
+
+    .hero__content p {
+        font-size: 0.9rem;
+    }
+
+    .hero__content {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .service__item span i {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .service__item {
+        padding: 20px;
+    }
+}
