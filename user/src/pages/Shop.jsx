@@ -72,12 +72,8 @@ const Shop = () => {
                                     <option value='sofa'>Sofa</option>
                                     <option value='bed'>Bed</option>
                                     <option value='cabinet'>Cabinet</option>
-                                    <option value='mobile'>Mobile</option>
-                                    <option value='watch'>Watch</option>
-                                    <option value='television'>Television</option>
                                     <option value='refrigerator'>Refrigerator</option>
                                     <option value='washing'>Washing Machine</option>
-                                    <option value='misc'>Other Appliances</option>
                                 </select>
                             </div>
                         </Col>
